@@ -11,6 +11,7 @@ import Scheduler from "./pages/Scheduler";
 import Analytics from "./pages/Analytics";
 import BrandKit from "./pages/BrandKit";
 import Playbook from "./pages/Playbook";
+import Generate from "./pages/Generate";
 
 function Router() {
   return (
@@ -22,6 +23,7 @@ function Router() {
       <Route path="/analytics" component={Analytics} />
       <Route path="/brand-kit" component={BrandKit} />
       <Route path="/playbook" component={Playbook} />
+      <Route path="/generate" component={Generate} />
       <Route path="/404" component={NotFound} />
       <Route component={NotFound} />
     </Switch>

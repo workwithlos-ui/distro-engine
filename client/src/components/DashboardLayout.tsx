@@ -18,6 +18,7 @@ import {
   Zap,
   Menu,
   X,
+  Sparkles,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -28,6 +29,7 @@ const navItems = [
   { path: "/analytics", label: "Analytics", icon: BarChart3 },
   { path: "/brand-kit", label: "Brand Kit", icon: Palette },
   { path: "/playbook", label: "Playbook", icon: BookOpen },
+  { path: "/generate", label: "AI Generate", icon: Sparkles, highlight: true },
 ];
 
 export default function DashboardLayout({ children }: { children: React.ReactNode }) {
@@ -80,6 +82,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
         <nav className="flex-1 py-4 px-2 space-y-1 overflow-y-auto">
           {navItems.map((item) => {
             const isActive = location === item.path;
+            const isHighlight = item.highlight;
             return (
               <Link key={item.path} href={item.path}>
                 <div
@@ -87,12 +90,19 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
                     "flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-all duration-150",
                     isActive
                       ? "bg-violet/15 text-violet-light border border-violet/20"
+                      : isHighlight
+                      ? "text-violet border border-violet/20 bg-violet/5 hover:bg-violet/10 hover:text-violet-light"
                       : "text-muted-foreground hover:text-foreground hover:bg-accent/50 border border-transparent"
                   )}
                   onClick={() => setMobileOpen(false)}
                 >
-                  <item.icon className={cn("w-4 h-4 shrink-0", isActive && "text-violet")} />
+                  <item.icon className={cn("w-4 h-4 shrink-0", (isActive || isHighlight) && "text-violet")} />
                   {!collapsed && <span className="whitespace-nowrap">{item.label}</span>}
+                  {!collapsed && isHighlight && !isActive && (
+                    <span className="ml-auto text-[9px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded bg-violet/20 text-violet">
+                      AI
+                    </span>
+                  )}
                 </div>
               </Link>
             );
