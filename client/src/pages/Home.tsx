@@ -1,5 +1,5 @@
 /*
- * Design: "Obsidian Ops" — Dark Luxury SaaS
+ * Design: "Obsidian Ops" - Dark Luxury SaaS
  * Page: Landing / Marketing page
  * Hero with gradient mesh bg, feature sections, CTA
  */
@@ -54,7 +54,7 @@ const features = [
   {
     icon: Globe,
     title: "Multi-Platform",
-    description: "YouTube, TikTok, Instagram, Facebook, X — all managed from one interface with platform-specific optimization.",
+    description: "YouTube, TikTok, Instagram, Facebook, X - all managed from one interface with platform-specific optimization.",
   },
 ];
 
@@ -205,7 +205,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* How it works — visual sections */}
+      {/* How it works - visual sections */}
       <section id="how-it-works" className="py-20 lg:py-32 border-t border-border/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
@@ -234,7 +234,7 @@ export default function Home() {
               <h3 className="text-2xl font-bold tracking-tight mb-4">Build Your Sub-Account Network</h3>
               <p className="text-muted-foreground leading-relaxed mb-6">
                 Create a constellation of branded accounts across every major platform.
-                Each account maintains your brand identity — consistent logos, bios, and visual language.
+                Each account maintains your brand identity - consistent logos, bios, and visual language.
                 This isn't random clipping. It's controlled distribution.
               </p>
               <ul className="space-y-3">
@@ -277,7 +277,7 @@ export default function Home() {
               <p className="text-muted-foreground leading-relaxed mb-6">
                 One piece of content, distributed across your entire network.
                 Staggered posting times, platform-specific optimization, and
-                rate-limit management — all automated.
+                rate-limit management - all automated.
               </p>
               <ul className="space-y-3">
                 {["Bulk scheduling across 50+ accounts", "Staggered posting to avoid spam filters", "Short-form top-of-funnel + long-form conversion"].map((item) => (

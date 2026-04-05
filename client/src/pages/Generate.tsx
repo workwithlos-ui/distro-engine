@@ -1,6 +1,6 @@
 /*
- * Generate Page — AI Content Generation for All Sub-Accounts
- * Design: "Obsidian Ops" — Dark Luxury SaaS
+ * Generate Page - AI Content Generation for All Sub-Accounts
+ * Design: "Obsidian Ops" - Dark Luxury SaaS
  */
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -201,7 +201,7 @@ export default function Generate() {
               AI Content Generator
             </h1>
             <p className="text-sm text-muted-foreground mt-1">
-              Paste a transcript or idea — generate tailored content for all{" "}
+              Paste a transcript or idea - generate tailored content for all{" "}
               <span className="text-violet font-medium">{activeAccounts.length} active accounts</span> at once.
             </p>
           </div>
@@ -311,7 +311,7 @@ export default function Generate() {
           <p className="text-xs text-muted-foreground">
             Will generate content for{" "}
             <span className="text-foreground font-medium">{activeAccounts.length} active accounts</span>
-            {" "}— {subAccounts.filter((a) => a.status === "paused").length} paused accounts excluded.
+            {" "}- {subAccounts.filter((a) => a.status === "paused").length} paused accounts excluded.
           </p>
         </motion.div>
 

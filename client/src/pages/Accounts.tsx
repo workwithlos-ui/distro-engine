@@ -1,5 +1,5 @@
 /*
- * Design: "Obsidian Ops" — Dark Luxury SaaS
+ * Design: "Obsidian Ops" - Dark Luxury SaaS
  * Page: Sub-Account Management
  */
 import { useState } from "react";

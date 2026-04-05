@@ -1,6 +1,6 @@
 /*
- * Design: "Obsidian Ops" — Dark Luxury SaaS
- * Page: Main Dashboard — overview of the distribution network
+ * Design: "Obsidian Ops" - Dark Luxury SaaS
+ * Page: Main Dashboard - overview of the distribution network
  */
 import DashboardLayout from "@/components/DashboardLayout";
 import StatCard from "@/components/StatCard";
@@ -56,7 +56,7 @@ export default function Dashboard() {
         <div>
           <h1 className="text-xl font-bold tracking-tight">Command Center</h1>
           <p className="text-sm text-muted-foreground mt-1">
-            Network overview — {activeAccounts} active accounts across {new Set(subAccounts.map(a => a.platform)).size} platforms
+            Network overview - {activeAccounts} active accounts across {new Set(subAccounts.map(a => a.platform)).size} platforms
           </p>
         </div>
 

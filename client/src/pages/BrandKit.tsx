@@ -1,6 +1,6 @@
 /*
- * Design: "Obsidian Ops" — Dark Luxury SaaS
- * Page: Brand Kit — centralized asset and brand management
+ * Design: "Obsidian Ops" - Dark Luxury SaaS
+ * Page: Brand Kit - centralized asset and brand management
  */
 import { useState } from "react";
 import DashboardLayout from "@/components/DashboardLayout";
@@ -31,12 +31,12 @@ const brandColors = [
 ];
 
 const assets = [
-  { id: "1", name: "Logo — Full", type: "image", format: "SVG", size: "24 KB" },
-  { id: "2", name: "Logo — Icon Only", type: "image", format: "SVG", size: "8 KB" },
+  { id: "1", name: "Logo - Full", type: "image", format: "SVG", size: "24 KB" },
+  { id: "2", name: "Logo - Icon Only", type: "image", format: "SVG", size: "8 KB" },
   { id: "3", name: "Intro Animation", type: "video", format: "MP4", size: "2.4 MB" },
   { id: "4", name: "Outro Animation", type: "video", format: "MP4", size: "1.8 MB" },
-  { id: "5", name: "Watermark — Light", type: "image", format: "PNG", size: "12 KB" },
-  { id: "6", name: "Watermark — Dark", type: "image", format: "PNG", size: "12 KB" },
+  { id: "5", name: "Watermark - Light", type: "image", format: "PNG", size: "12 KB" },
+  { id: "6", name: "Watermark - Dark", type: "image", format: "PNG", size: "12 KB" },
   { id: "7", name: "Thumbnail Template A", type: "image", format: "PSD", size: "8.2 MB" },
   { id: "8", name: "Thumbnail Template B", type: "image", format: "PSD", size: "7.6 MB" },
   { id: "9", name: "Brand Guidelines PDF", type: "document", format: "PDF", size: "4.1 MB" },
@@ -72,7 +72,7 @@ export default function BrandKit() {
           <div>
             <h1 className="text-xl font-bold tracking-tight">Brand Kit</h1>
             <p className="text-sm text-muted-foreground mt-1">
-              Centralized brand assets — applied consistently across all sub-accounts
+              Centralized brand assets - applied consistently across all sub-accounts
             </p>
           </div>
           <Button

@@ -1,5 +1,5 @@
 /*
- * Design: "Obsidian Ops" — Dark Luxury SaaS
+ * Design: "Obsidian Ops" - Dark Luxury SaaS
  * Page: Aggregated Analytics Dashboard
  */
 import DashboardLayout from "@/components/DashboardLayout";

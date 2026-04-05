@@ -1,5 +1,5 @@
 /*
- * Design: "Obsidian Ops" — Dark Luxury SaaS
+ * Design: "Obsidian Ops" - Dark Luxury SaaS
  * Layout: Collapsible sidebar rail with frosted glass panels
  * Colors: True dark #09090B, violet accent #8B5CF6
  */

@@ -1,6 +1,6 @@
 /*
- * Design: "Obsidian Ops" — Dark Luxury SaaS
- * Page: Content Scheduler — bulk scheduling and calendar view
+ * Design: "Obsidian Ops" - Dark Luxury SaaS
+ * Page: Content Scheduler - bulk scheduling and calendar view
  */
 import { useState } from "react";
 import DashboardLayout from "@/components/DashboardLayout";
@@ -183,7 +183,7 @@ export default function Scheduler() {
                     </div>
                     <div className="lg:col-span-1">
                       <span className="text-sm font-mono">
-                        {post.views !== undefined ? formatNumber(post.views) : "—"}
+                        {post.views !== undefined ? formatNumber(post.views) : "-"}
                       </span>
                     </div>
                     <div className="lg:col-span-1">
@@ -205,7 +205,7 @@ export default function Scheduler() {
             className="glass-panel rounded-xl p-5"
           >
             <div className="flex items-center justify-between mb-6">
-              <h3 className="text-sm font-semibold">March — April 2026</h3>
+              <h3 className="text-sm font-semibold">March - April 2026</h3>
               <div className="flex items-center gap-2">
                 <button className="p-1.5 rounded-md text-muted-foreground hover:text-foreground hover:bg-accent/50 transition-colors">
                   <ChevronLeft className="w-4 h-4" />

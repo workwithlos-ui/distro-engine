@@ -1,6 +1,6 @@
 /*
- * Design: "Obsidian Ops" — Dark Luxury SaaS
- * Page: SOP Playbook — The Agency Playbook progression
+ * Design: "Obsidian Ops" - Dark Luxury SaaS
+ * Page: SOP Playbook - The Agency Playbook progression
  */
 import { useState } from "react";
 import DashboardLayout from "@/components/DashboardLayout";

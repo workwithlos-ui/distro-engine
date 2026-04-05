@@ -70,13 +70,13 @@ export const subAccounts: SubAccount[] = [
 ];
 
 export const scheduledPosts: ScheduledPost[] = [
-  { id: "p1", title: "Why Volume Negates Luck — Full Breakdown", type: "long", status: "published", scheduledAt: "2026-03-31T10:00:00Z", accounts: ["1", "9"], platform: "YouTube", views: 12400 },
+  { id: "p1", title: "Why Volume Negates Luck - Full Breakdown", type: "long", status: "published", scheduledAt: "2026-03-31T10:00:00Z", accounts: ["1", "9"], platform: "YouTube", views: 12400 },
   { id: "p2", title: "3 Distribution Hacks That 10x Your Reach", type: "short", status: "published", scheduledAt: "2026-03-31T12:00:00Z", accounts: ["2", "3", "4", "12"], platform: "Multi", views: 45200 },
   { id: "p3", title: "Sub-Account Strategy Explained in 60s", type: "short", status: "scheduled", scheduledAt: "2026-04-01T09:00:00Z", accounts: ["2", "3", "5"], platform: "Multi" },
   { id: "p4", title: "How I Post 100x/Day Without Burning Out", type: "short", status: "scheduled", scheduledAt: "2026-04-01T11:00:00Z", accounts: ["2", "4", "8", "11"], platform: "Multi" },
-  { id: "p5", title: "The Agency Playbook — Step by Step", type: "long", status: "scheduled", scheduledAt: "2026-04-01T14:00:00Z", accounts: ["1", "7"], platform: "YouTube + FB" },
+  { id: "p5", title: "The Agency Playbook - Step by Step", type: "long", status: "scheduled", scheduledAt: "2026-04-01T14:00:00Z", accounts: ["1", "7"], platform: "YouTube + FB" },
   { id: "p6", title: "Brand Consistency > Viral Moments", type: "short", status: "draft", scheduledAt: "2026-04-02T10:00:00Z", accounts: ["3", "12"], platform: "Instagram" },
-  { id: "p7", title: "Retargeting From Organic — The Secret Weapon", type: "short", status: "scheduled", scheduledAt: "2026-04-01T16:00:00Z", accounts: ["2", "3", "4", "5", "12"], platform: "Multi" },
+  { id: "p7", title: "Retargeting From Organic - The Secret Weapon", type: "short", status: "scheduled", scheduledAt: "2026-04-01T16:00:00Z", accounts: ["2", "3", "4", "5", "12"], platform: "Multi" },
   { id: "p8", title: "Building an Internal Content Team", type: "long", status: "draft", scheduledAt: "2026-04-03T10:00:00Z", accounts: ["1"], platform: "YouTube" },
   { id: "p9", title: "Short-Form Is Your Top of Funnel", type: "short", status: "failed", scheduledAt: "2026-03-30T15:00:00Z", accounts: ["6"], platform: "Instagram", views: 0 },
   { id: "p10", title: "The Math Behind 35,000 Posts/Year", type: "short", status: "published", scheduledAt: "2026-03-30T08:00:00Z", accounts: ["2", "3", "4", "8", "11"], platform: "Multi", views: 67800 },
@@ -100,7 +100,7 @@ export const playbookPhases: PlaybookPhase[] = [
   {
     id: "ph1",
     phase: 1,
-    title: "Foundation — Hire Basic Agency",
+    title: "Foundation - Hire Basic Agency",
     description: "Establish fundamental content operations with a basic content agency. Focus on building consistent output cadence.",
     status: "complete",
     steps: [
@@ -113,11 +113,11 @@ export const playbookPhases: PlaybookPhase[] = [
   {
     id: "ph2",
     phase: 2,
-    title: "Upgrade — Premium Distribution Agency",
+    title: "Upgrade - Premium Distribution Agency",
     description: "Level up to a premium agency that understands high-volume distribution tactics and sub-account management.",
     status: "complete",
     steps: [
-      { id: "s5", title: "Audit current agency performance", description: "Review metrics from Phase 1 — views per post, engagement rates, follower growth velocity.", status: "complete", assignee: "Analytics" },
+      { id: "s5", title: "Audit current agency performance", description: "Review metrics from Phase 1 - views per post, engagement rates, follower growth velocity.", status: "complete", assignee: "Analytics" },
       { id: "s6", title: "Onboard premium distribution agency", description: "Transition to an agency specializing in multi-account distribution with proven case studies.", status: "complete", assignee: "Operations" },
       { id: "s7", title: "Launch sub-account network", description: "Create 8-12 branded sub-accounts across platforms with consistent branding and bios.", status: "complete", assignee: "Brand Team" },
       { id: "s8", title: "Implement cross-posting workflows", description: "Set up automated workflows to repurpose long-form content into short-form across all sub-accounts.", status: "complete", assignee: "Content Lead" },
@@ -126,7 +126,7 @@ export const playbookPhases: PlaybookPhase[] = [
   {
     id: "ph3",
     phase: 3,
-    title: "Document — Extract All SOPs",
+    title: "Document - Extract All SOPs",
     description: "Systematically document every process the premium agency uses so you can replicate it internally.",
     status: "active",
     steps: [
@@ -139,7 +139,7 @@ export const playbookPhases: PlaybookPhase[] = [
   {
     id: "ph4",
     phase: 4,
-    title: "Transition — Agency to Consulting",
+    title: "Transition - Agency to Consulting",
     description: "Move the agency to a consulting/advisory role while building your internal team using the documented SOPs.",
     status: "upcoming",
     steps: [
@@ -152,7 +152,7 @@ export const playbookPhases: PlaybookPhase[] = [
   {
     id: "ph5",
     phase: 5,
-    title: "Independence — Full Internal Operations",
+    title: "Independence - Full Internal Operations",
     description: "Cut the agency entirely once your internal team matches or exceeds their output quality and volume.",
     status: "upcoming",
     steps: [
